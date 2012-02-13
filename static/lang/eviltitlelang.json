@@ -1,0 +1,151 @@
+{
+	"lang_name" : "EvilCorp",
+	"lang_vers" : "0.1",
+	"lang_tokens" :
+		[
+			"root",
+			"type_A_prefix",
+			"type_A_postfix",
+			"type_B_name"
+
+			
+		],
+		
+	"root" :
+		{
+			"prob_final" : 0.0,
+			"vals" :
+				[
+				],
+			"child_tokens" :
+				[
+					"type_A",
+					"type_B"
+				]
+		},
+		
+		
+	"type_A" :
+		{
+			"child_tokens" :
+				[
+					"type_A_verb"
+				]
+		},
+		
+		
+	"type_B" :
+		{
+			"vals" :
+				[
+				"Innovation.",
+				"Invent.", 
+				"Better.", 
+				"Think Different.", 
+				"Your future.", 
+				"Your Future.  Our Way.", 
+				"Making your best, better.", 
+				"Making your best, better for us.", 
+				"You, but better.", 
+				"You. Better.", 
+				"Why? Because.", 
+				"Because.", 
+				"Why settle for anything else?", 
+				"Settle for this.", 
+				"Could be worse.", 
+				"Science marches on.", 
+				"March on.", 
+				"Never slow down.", 
+				"Never let up.", 
+				"Enjoy.", 
+				"See change.", 
+				"Never going to give you up.", 
+				"Never going to let you down.", 
+				"You won’t let us down.", 
+				"The ONLY choice.", 
+				"No competition."
+				]
+		},
+		
+	"type_A_verb" :
+		{
+			"vals" :
+				[
+					"Securing", 
+					"Defending", 
+					"Innovating", 
+					"Reinventing", 
+					"Rebuilding", 
+					"Restructuring", 
+					"Freeing", 
+					"Improving", 
+					"Fortifying"
+				],
+			"child_tokens" :
+				[
+					"type_A_article"
+				]
+		},
+		
+	"type_A_article" :
+		{
+			"delim" : " ",
+			"vals" :
+				[
+					"our",
+					"your",
+					"the"
+
+				],
+			"child_tokens" :
+				[
+					"type_A_subject_1"
+				]
+		},
+		
+	"type_A_subject_1" :
+		{
+			"delim" : " ",
+			"prob_final" : 50.0,
+			"vals" :
+				[
+					"children",
+					"future",
+					"family",
+					"world",
+					"society",
+					"nation"
+
+				],
+			"child_tokens" :
+				[
+					"type_A_subject_pluralize"
+				]
+		},
+		
+	"type_A_subject_pluralize" :
+		{
+			"vals" :
+				[
+					"'s"
+
+				],
+			"child_tokens" :
+				[
+					"type_A_subject_2"
+				]
+		},
+		
+	"type_A_subject_2" :
+		{
+			"delim" : " ",
+			"vals" :
+				[
+					"security",
+					"future",
+					"children",
+					"progress"
+				]
+		}
+		
+}
