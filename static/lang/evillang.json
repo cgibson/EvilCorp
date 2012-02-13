@@ -37,10 +37,36 @@
 		{
 			"vals" :
 				[
-					"Cyber",
-					"Omni",
-					"Data",
-					"Core"
+					"Cyber", 
+					"Omni", 
+					"Data", 
+					"Core", 
+					"Alpha", 
+					"Omega", 
+					"Neuro", 
+					"Beta", 
+					"Sol", 
+					"Bio", 
+					"Terra", 
+					"Micro", 
+					"Macro", 
+					"Evil", 
+					"Myth", 
+					"Trans", 
+					"Hyper", 
+					"Super", 
+					"Ultra", 
+					"Mal", 
+					"Phi", 
+					"Astro", 
+					"Ly", 
+					"Eco", 
+					"Cryo", 
+					"Nano", 
+					"Poly", 
+					"Para", 
+					"Data", 
+					"Nu"
 				],
 			"child_tokens" :
 				[
@@ -53,10 +79,21 @@
 			"prob_final" : 25.0,
 			"vals" :
 				[
-					"Dyne",
-					"Sys",
-					"Lex",
-					"Corp"
+					"Dyne", 
+					"Sys", 
+					"Lex", 
+					"Corp", 
+					"Ware", 
+					"Soft", 
+					"Tek", 
+					"Tech", 
+					"Mart", 
+					"Gen", 
+					"Ron", 
+					"Cyte", 
+					"Geny", 
+					"Core", 
+					"sec"
 				],
 			"child_tokens" :
 				[

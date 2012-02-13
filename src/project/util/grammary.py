@@ -57,7 +57,6 @@ class Language (object):
         return pchoice.choose( val_list, [100.0 / val_count] * val_count )
         
     def _parseJson(self, filename):
-        print "Parsing file [%s]" % filename
         json_data=open(filename)
         self.lang_data = json.load(json_data)
         json_data.close()
