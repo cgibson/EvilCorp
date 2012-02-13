@@ -93,7 +93,7 @@
 					"Cyte", 
 					"Geny", 
 					"Core", 
-					"sec"
+					"Sec"
 				],
 			"child_tokens" :
 				[
@@ -201,7 +201,8 @@
 				[
 					"descriptor_type_A",
 					"descriptor_type_B",
-					"descriptor_type_C"
+					"descriptor_type_C",
+					"company_type"
 				]
 		},
 		
