@@ -1,0 +1,394 @@
+{
+	"lang_name" : "EvilCorp",
+	"lang_vers" : "0.1",
+	"lang_tokens" :
+		[
+			"root",
+			"type_A_prefix",
+			"type_A_postfix",
+			"type_B_name"
+
+			
+		],
+		
+	"root" :
+		{
+			"prob_final" : 0.0,
+			"vals" :
+				[
+				],
+			"child_tokens" :
+				[
+					"type_A",
+					"type_B"
+				]
+		},
+		
+		
+	"type_A" :
+		{
+			"child_tokens" :
+				[
+					"type_A_prefix"
+				]
+		},
+		
+	"type_A_prefix" :
+		{
+			"vals" :
+				[
+					"Cyber",
+					"Omni",
+					"Data",
+					"Core"
+				],
+			"child_tokens" :
+				[
+					"type_A_postfix"
+				]
+		},
+		
+	"type_A_postfix" :
+		{
+			"prob_final" : 25.0,
+			"vals" :
+				[
+					"Dyne",
+					"Sys",
+					"Lex",
+					"Corp"
+				],
+			"child_tokens" :
+				[
+					"descriptor"
+				]
+		},
+	
+	"type_B" :
+		{
+			"prob_final" : 25.0,
+			"vals" :
+				[
+				"Claymore", 
+				"Veridian", 
+				"Horizon", 
+				"Syndicate", 
+				"Aperture", 
+				"Paradigm", 
+				"Mythos", 
+				"Dogma", 
+				"Oracle", 
+				"Goliath", 
+				"Heuristic", 
+				"Ragnarok", 
+				"Revelations", 
+				"Revalation", 
+				"Confederate", 
+				"Paragon", 
+				"Applied", 
+				"Empire", 
+				"Zenith", 
+				"Eon", 
+				"Ethos", 
+				"Fortress", 
+				"Alpha", 
+				"Omega", 
+				"Cobra", 
+				"Venom", 
+				"Bastian", 
+				"Patriot", 
+				"Falcon", 
+				"Overwatch", 
+				"Lookout", 
+				"Tower", 
+				"Shield", 
+				"Looking Glass", 
+				"Tactic", 
+				"Entropy", 
+				"Neguentropy", 
+				"Liberty", 
+				"Structure", 
+				"Soar", 
+				"Laughter", 
+				"Static", 
+				"Dynamo", 
+				"Clandestine", 
+				"Safe", 
+				"Tyrell", 
+				"Sirius", 
+				"Osiris", 
+				"Oceana", 
+				"Oceanic", 
+				"Atlantic", 
+				"Pacific", 
+				"Nakatomi", 
+				"Umbrella", 
+				"Blade", 
+				"Fear", 
+				"Sanity", 
+				"Insanity", 
+				"Block", 
+				"Golioth", 
+				"Spearhead", 
+				"Guardian", 
+				"Safeguard", 
+				"Lantern", 
+				"Titus", 
+				"Titan", 
+				"Thor", 
+				"Vanguard", 
+				"Hammer", 
+				"Origin", 
+				"Genesis", 
+				"Orbit", 
+				"Dragon", 
+				"Progress", 
+				"Cornerstone", 
+				"Treadstone", 
+				"Citadel", 
+				"Morpheus", 
+				"Balthazar", 
+				"Nebacabezer", 
+				"Dynasty", 
+				"Lineage"
+				],
+			"child_tokens" :
+				[
+					"descriptor"
+				]
+		},
+		
+	"descriptor" :
+		{
+			"child_tokens" : 
+				[
+					"descriptor_type_A",
+					"descriptor_type_B",
+					"descriptor_type_C"
+				]
+		},
+		
+	"descriptor_type_A" :
+		{
+			"child_tokens" :
+				[
+					"descriptor_type_A_prefix"
+				]
+		},
+		
+	"descriptor_type_B" :
+		{
+			"child_tokens" :
+				[
+					"descriptor_type_B_prefix"
+				]
+		},
+		
+	"descriptor_type_C" :
+		{
+			"child_tokens" :
+				[
+					"descriptor_main"
+				]
+		},
+		
+	"descriptor_type_A_prefix" :
+		{
+			"delim" : " ",
+			"vals" :
+				[
+					"Heavy", 
+					"Secure",
+					"Secure-Data", 
+					"Discrete", 
+					"Discrete-Data",
+					"Heuristic", 
+					"Joint", 
+					"Visual",
+					"Visual Data", 
+					"Applied", 
+					"Allied", 
+					"United", 
+					"Federated", 
+					"Powered", 
+					"Reinforced", 
+					"Tactical", 
+					"Military", 
+					"Concrete", 
+					"International", 
+					"National", 
+					"Professional", 
+					"Virtual", 
+					"Global"
+				],
+			"child_tokens" :
+				[
+					"descriptor_main"
+				]
+		},
+		
+	"descriptor_type_B_prefix" :
+		{
+			"delim" : " ",
+			"vals" :
+				[
+					"Secure-Data", 
+					"Discrete-Data",
+					"United", 
+					"Tactical", 
+					"International", 
+					"National", 
+					"Virtual", 
+					"Global"
+				]
+		},
+		
+	"descriptor_main" :
+		{
+			"child_tokens" :
+				[
+					"descriptor_main_singular",
+					"descriptor_main_plural"
+				]
+		},
+		
+	"descriptor_main_singular" :
+		{
+			"prob_final" : 50.0,
+			"delim" : " ",
+			"vals" :
+				[
+					"Production", 
+					"Electronics", 
+					"Networks", 
+					"Technology", 
+					"Mining", 
+					"Robotics", 
+					"Communications", 
+					"Science", 
+					"Solutions", 
+					"Industrial", 
+					"Pharmaceutical", 
+					"Systems", 
+					"Heuristic", 
+					"Extraction", 
+					"Defense", 
+					"Cybernetics", 
+					"Dynamics", 
+					"Advancement", 
+					"Trading", 
+					"Space", 
+					"Surveillance", 
+					"Infiltration", 
+					"Espionage", 
+					"Anti-Espionage"
+				],
+			"child_tokens" :
+				[
+					"descriptor_postfix"
+				]
+		},
+		
+	"descriptor_main_plural" :
+		{
+			"delim" : " ",
+			"vals" :
+				[
+					"Productions", 
+					"Electronics", 
+					"Networks", 
+					"Technologies", 
+					"Mining", 
+					"Robotics", 
+					"Communications", 
+					"Sciences", 
+					"Solutions", 
+					"Industries", 
+					"Pharmaceuticals", 
+					"Systems", 
+					"Heuristics", 
+					"Extraction", 
+					"Defense", 
+					"Cybernetics", 
+					"Dynamics", 
+					"Advancements", 
+					"Experiments", 
+					"Trading", 
+					"Space", 
+					"Surveillance", 
+					"Infiltration", 
+					"Espionage", 
+					"anti-espionage"
+				]
+		},
+	
+	"descriptor_postfix" :
+		{
+			"child_tokens" :
+				[
+					"descriptor_postfix_type_A",
+					"descriptor_postfix_type_B"
+				]
+		},
+		
+	"descriptor_postfix_type_A" :
+		{
+			"prob_final" : 50.0,
+			"delim" : " ",
+			"vals" :
+				[
+					"Enterprises", 
+					"Alliance", 
+					"Affiliate", 
+					"Associates", 
+					"Conglomerate",
+					"Confederate", 
+					"Federation", 
+					"Amalgamation"				
+				],
+			"child_tokens" :
+				[
+					"company_type"
+				]
+		},
+		
+	"descriptor_postfix_type_B" :
+		{
+			"delim" : " ",
+			"vals" :
+				[
+					"Alliance", 
+					"Syndicate", 
+					"Group",
+					"Conglomerate", 
+					"Collective", 
+					"Confederate", 
+					"Federation", 
+					"League",
+					"Empire"					
+				]
+		},
+	
+	"company_type" :
+		{
+			"delim" : " ",
+			"vals" :
+				[
+					"Incorporated", 
+					"Unlimited", 
+					"Inc", 
+					"L.L.C", 
+					"Enterprises", 
+					"Corporation", 
+					"Company", 
+					"Corp", 
+					"Co", 
+					"Conglomerate", 
+					"Firm", 
+					"Interest", 
+					"Bureau", 
+					"Department", 
+					"Directorate"				
+				]
+		}
+}
