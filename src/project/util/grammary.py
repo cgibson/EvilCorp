@@ -1,4 +1,4 @@
-import simplejson, json
+import json
 import random
 from pprint import pprint
 import pchoice
