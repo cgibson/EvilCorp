@@ -1,0 +1,85 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica, arial, veranda;
+}
+
+#bar {
+	background-color: #f8f8f8;
+	color: #444;
+	width: 100%;
+	padding: 4px;
+	border-bottom: 1px solid #ccc;
+}
+
+#bar ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+}
+
+#bar ul li {
+	margin-left: 0;
+	padding: 3px 15px;
+	display: inline;
+}
+
+#bar ul li.first {
+	margin-left: 0;
+	padding: 3px 15px;
+	display: inline;
+}
+
+#logo-outer {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-color: #eef;
+}
+
+h1 {
+	font-size: 48pt;
+	margin: 0px;
+	padding: 0px;
+	color: #222;
+}
+
+h1.f1 {
+	font-family: 'Glegoo', serif;
+}
+
+h1.f2 {
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+h1.f3 {
+	font-family: 'Norican', cursive;
+}
+
+h1.f4 {
+	font-family: 'Germania One', cursive;
+}
+
+h1.f5 {
+	font-family: 'Alegreya', serif;
+}
+
+h1.f6 {
+	font-family: 'Annie Use Your Telescope', cursive;
+}
+
+#motto {
+	font-size: 18pt;
+	font-style: italic;
+	color: #555;
+}
+
+span.quote {
+	font-size: 24pt;
+	font-family: georgia, gothic;
+}
